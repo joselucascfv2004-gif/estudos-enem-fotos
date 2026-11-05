@@ -8,3 +8,12 @@ Como usar (para o Claude):
 - Cada chat escreve **uma seção própria** (assunto, data, ramo onde estão os arquivos). Não apague a seção de outro chat.
 - Quando terminar uma pendência, marque `[x]` e diga onde ficou o resultado. Seções com tudo `[x]` podem ser apagadas.
 
+
+## Pacotes de imagens do App Estudos (chat peaceful-bohr, 27/10 a 05/11/2026)
+
+**Ramo:** `main`. A lista completa do que falta deste chat está em `estudos/cerebro/Pendências.md`, na seção "chat peaceful-bohr".
+
+- [ ] Nada pendente aqui. A pasta `pacotes/` guarda os pacotes de imagens que o App Estudos baixa quando precisa.
+  O nome de cada pacote leva um resumo do conteúdo. Quando o repositório `estudos` gerar pacotes novos
+  (`npm run conteudo`), rode `node scripts/publicar-pacotes.mjs ../estudos-enem-fotos` lá e faça commit e push aqui
+  antes de publicar o app. Pacotes antigos podem ficar: celulares com versão antiga ainda usam.
